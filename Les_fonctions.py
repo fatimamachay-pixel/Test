@@ -22,3 +22,10 @@ def plus_cher(l):
 def moins_cher(l):
     a=min(l)
     return a
+def mention(l):
+    for elt in l :
+        if elt[1]>1000:
+            print(f"le produits{elt[0]} LUXE")
+        else:
+            print(f"le produits{elt[0]}")
+    
