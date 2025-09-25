@@ -1,5 +1,5 @@
 from Données import produits,prix
-from Les_fonctions import fonction1,filter_sup,tansformer,trier,afficher
+from Les_fonctions import fonction1,filter_sup,tansformer,trier,convertir
 print(tansformer)
 
 print(filter_sup)
@@ -13,3 +13,5 @@ X=tansformer(association)
 print(X)
 tri=trier(X)
 print(tri)
+convertir_tuple=convertir(tri)
+print(convertir_tuple)

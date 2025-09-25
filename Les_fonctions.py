@@ -13,7 +13,6 @@ def tansformer(produits):
 def trier(d): 
     return d.sort()
 
-def afficher(tri):
-    for x in tri:
-        print(tri)
-    return 
+def convertir(l):
+    return tuple[l]
+    
