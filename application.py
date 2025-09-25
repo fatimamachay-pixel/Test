@@ -10,8 +10,11 @@ filter_fct=filter_sup(association)
 
 print(filter_fct)
 X=tansformer(association)
-print(X)
-tri=trier(X)
+print("X",X)
+
+
+tri=trier(prix)
 print(tri)
+
 convertir_tuple=convertir(tri)
 print(convertir_tuple)

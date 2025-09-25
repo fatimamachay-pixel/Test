@@ -10,9 +10,9 @@ def tansformer(produits):
         produit_finaux= (f"le produit {a[0]} cout {a[1]}DH")  
         r1.append(produit_finaux)
     return r1
-def trier(d): 
-    return d.sort()
+def trier(prix): 
+    return sorted(prix)
 
 def convertir(l):
-    return tuple[l]
-    
+    a=tuple(l)
+    return a
