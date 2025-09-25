@@ -19,3 +19,6 @@ def convertir(l):
 def plus_cher(l):
     a=max(l)
     return a
+def moins_cher(l):
+    a=min(l)
+    return a

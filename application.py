@@ -1,5 +1,5 @@
 from Données import produits,prix
-from Les_fonctions import fonction1,filter_sup,tansformer,trier,convertir,plus_cher
+from Les_fonctions import fonction1,filter_sup,tansformer,trier,convertir,plus_cher, moins_cher
 print(tansformer)
 
 print(filter_sup)
@@ -20,3 +20,5 @@ convertir_tuple=convertir(tri)
 print(convertir_tuple)
 prix_plus_cher=plus_cher(convertir_tuple)
 print(prix_plus_cher)
+prix_moins_cher_reste=moins_cher(convertir_tuple)
+print(prix_moins_cher_reste)
