@@ -1,6 +1,2 @@
-from Données import produits,prix
-print(produits,prix)
-
-#association chaque produit à son prix :
-resultat=zip(produits,prix)
-print(list(resultat))
+def fonction1(a,b):
+    return list(zip(a,b))

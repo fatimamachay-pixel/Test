@@ -1,7 +1,9 @@
 from Données import produits,prix
-from Les_fonctions import resultat
+from Les_fonctions import fonction1
+
 print(produits,prix)
-print(resultat)
+print(fonction1(produits,prix))
+
 #association chaque produit à son prix :
-resultat=zip(produits,prix)
-print(list(resultat))
+# resulatat=fonction1(produits,prix)
+# print(resultat)
