@@ -16,3 +16,6 @@ def trier(prix):
 def convertir(l):
     a=tuple(l)
     return a
+def plus_cher(l):
+    a=max(l)
+    return a
