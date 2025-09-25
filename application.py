@@ -1,5 +1,5 @@
 from Données import produits,prix
-from Les_fonctions import fonction1,filter_sup,tansformer,trier
+from Les_fonctions import fonction1,filter_sup,tansformer,trier,afficher
 print(tansformer)
 
 print(filter_sup)

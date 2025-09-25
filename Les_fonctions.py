@@ -12,3 +12,8 @@ def tansformer(produits):
     return r1
 def trier(d): 
     return d.sort()
+
+def afficher(tri):
+    for x in tri:
+        print(tri)
+    return 
